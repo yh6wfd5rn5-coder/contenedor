@@ -1,0 +1,12 @@
+# Configuración de submódulos - PUENTE PRIVADO
+# Este archivo conecta los tres repositorios en un sistema integrado
+
+[submodule "tanque"]
+	path = modules/tanque
+	url = https://github.com/yenqin1ti-gif/tanque.git
+	branch = feature/super-neurosis
+
+[submodule "nodriza-superinteligencia"]
+	path = modules/nodriza
+	url = https://github.com/yh6wfd5rn5/nodriza-superinteligencia.git
+	branch = main
